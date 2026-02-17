@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+meetin/.venv/
+
+# Environment variables (SENSITIVE - never commit)
+.env
+.env.local
+.env.production
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Media uploads
+media/
+
+# Logs
+logs/
+*.log
+
+# Static files (collected)
+staticfiles/
+static_collected/
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
